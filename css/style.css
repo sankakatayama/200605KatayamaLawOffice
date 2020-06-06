@@ -1,0 +1,70 @@
+
+/*　ここからは賛歌が入れた */
+
+body{
+  margin-bottom: 78px;
+}
+.hidenori-photo{
+  background-image: url(../img/AdobeStock_189603333-2.jpg);
+}
+.text-small{
+  font-size: 1rem;
+}
+.lh-3{
+  line-height: 3rem;
+}
+.bg-bluegreen{
+  background-color: #17a2b8;
+}
+.bg-darkgreen{
+  background-color: #0c5460;
+}
+.text-tomato{
+  color: #EE3510;
+}
+.text-yellow{
+  color: #ffc107;
+}
+.text-bluegreen{
+  color: #17a2b8;
+}
+.text-grey{
+  color: #6c757d;
+}
+.text-grey2{
+  color: #495057;
+}
+a{
+  color: #17a2b8
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #0c5460;
+}
+
+.navbar-light .navbar-brand{
+  color: #17a2b8;
+}
+
+.btn-primary{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+.btn-primary:hover{
+  background-color: teal;
+  border-color: teal;
+}
+
+a:hover{
+  color: #17a2b8;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #28a745;
+}
+.procedure-box a{
+  color: white;
+}
+
+.footer-font p{
+  font-size: 1rem;
+}
