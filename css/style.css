@@ -19,6 +19,12 @@ body{
 .bg-darkgreen{
   background-color: #0c5460;
 }
+.bg-darkgreen2{
+  background-color: #577750;
+}
+.bg-tomato{
+  background-color: #EE3510;
+}
 .text-tomato{
   color: #EE3510;
 }
