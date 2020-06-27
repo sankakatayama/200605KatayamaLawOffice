@@ -45,8 +45,6 @@ a{
 }
 
 
-
-
 .dropdown-item.active, .dropdown-item:active{
   background-color: #0c5460;
 }
@@ -66,6 +64,7 @@ a{
 
 a:hover{
   color: #17a2b8;
+  text-decoration: none;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -77,6 +76,13 @@ a:hover{
 
 .footer-font p{
   font-size: 1rem;
+}
+
+.navbar-dark{
+  background: rgba(0, 0, 0, 0.6);
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
 }
 
 .border-top-left-radius:0px;
