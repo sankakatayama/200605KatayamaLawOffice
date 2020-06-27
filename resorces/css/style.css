@@ -25,9 +25,14 @@ body{
 .bg-tomato{
   background-color: #EE3510;
 }
+
 .text-tomato{
   color: #EE3510;
 }
+.text-tomato2{
+  color: tomato;
+}
+
 .text-yellow{
   color: #ffc107;
 }
