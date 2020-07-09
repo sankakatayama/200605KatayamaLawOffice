@@ -3,15 +3,20 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171485220-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171485220-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-171485220-1');
-  gtag('set', {'user_id': 'USER_ID'}); // ログインしている user_id を使用してUser-ID を設定します。
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171485220-1');
+    gtag('set', {
+      'user_id': 'USER_ID'
+    }); // ログインしている user_id を使用してUser-ID を設定します。
+  </script>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -71,15 +76,8 @@
     <div class="text-center">
       <img src="resorces/img/hidenori_cut_stripetie_transparent3-2.png" class="img-fluid" alt="Responsive image">
     </div>
-    <div class="container px-0 border-bluegreen-thick">
+    <div class="container px-0">
       <div class="container p-1 bg-bluegreen">
-        <!--  休業のお知らせ  --
-      <a href="holiday.html">
-      <div class="p-2 text-center text-white">
-        <p>年末年始休業のお知らせはこちら ＞</p>
-      </div>
-    </a>
-    <!--  END 休業のお知らせ  -->
         <div class="bg-white pb-4 px-2">
           <h1 class="h4 mb-2 py-3 text-center">
             <span class="" style="font-size: 2em; color: tomato;">
@@ -182,47 +180,77 @@
       <!--  END Flexbox3  -->
       <!--  END ここがスゴい　Flexbox  -->
 
-      <div class="bg-white py-2" id="reservation">
-        <!--  電話で相談  -->
-        <div class="text-center bg-bluegreen m-2 p-3">
-          <a href="tel:05031886226">
-            <span style="font-size: 3em; color: #ffc107;">
-              <i class="fas fa-phone-square"></i>
-            </span>
-            <p class="mb-0 font-weight-bold text-white">電話で予約</p>
-          </a>
-        </div>
-        <!--  フォームで相談  -->
-        <div class="text-center bg-bluegreen m-2 p-3">
-          <a href="index.html#gform">
-            <span style="font-size: 3em; color: #ffc107;">
-              <i class="fas fa-paper-plane"></i>
-            </span>
-            <p class="mb-0 font-weight-bold text-white">フォームで予約</p>
-          </a>
-        </div>
-        <!--  END フォームで相談  -->
+      <!--  亀子先生いれてみる  -->
+      <div class="text-center">
+        <img src="resorces/img/kameko_transparent2.png" class="img-fluid" alt="Responsive image">
       </div>
-      <div class="p-3 bg-light">
-        <p class="text-center text-grey2">経験豊富な代表弁護士が<br>お話を伺います。<br>まずはご予約を。</p>
-        <p class="font-weight-bold text-center text-tomato">相談予約専用番号</p>
-        <p class="mb-0 text-center font-weight-bold">
-          <a href="tel:05031886226">
-            <span style="font-size: 1em; color: tomato;">
-              <i class="fas fa-phone"></i>
+      <div class="container p-1 bg-bluegreen">
+        <div class="bg-white pb-4 px-2">
+          <h1 class="h4 mb-2 py-3 text-center">
+            <span class="" style="font-size: 2em; color: tomato;">
+              <i class="fas fa-id-badge"></i>
             </span>
-            050-3188-6226
-          </a>
-        </p>
-      </div>
-      <div class="bg-light">
-        <div class="p-2 text-center text-grey">
-          <p class="mt-3">営業時間</p>
-          <p>平日　10:00-19:00</p>
-          <p>土曜日（隔週）10:00-18:00</p>
+            <br><span class="text-grey font-weight-bold">弁護士亀子伸一<br>について</span>
+          </h1>
+          <div class="py-3 bg-darkgreen text-white text-center">
+            <p class="h5 mb-0 text-white">プロフィール</p>
+          </div>
+          <div class="bg-darkgreen p-1 mb-2">
+            <div class="bg-white p-2">
+              <p class="text-center">静岡県弁護士会所属</p>
+              <p class="text-center">登録番号53434</p>
+              <p class="">1988年大阪府高槻市生まれ。
+                <br>山梨学院大学法科大学院を卒業後、司法修習（修習地：岐阜）を経て、縁あって片山ひでのり法律事務所にて弁護士としての第一歩を踏み出す。
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+
+  <div class="bg-white py-2" id="reservation">
+    <!--  電話で相談  -->
+    <div class="text-center bg-bluegreen m-2 p-3">
+      <a href="tel:05031886226">
+        <span style="font-size: 3em; color: #ffc107;">
+          <i class="fas fa-phone-square"></i>
+        </span>
+        <p class="mb-0 font-weight-bold text-white">電話で予約</p>
+      </a>
+    </div>
+    <!--  フォームで相談  -->
+    <div class="text-center bg-bluegreen m-2 p-3">
+      <a href="index.html#gform">
+        <span style="font-size: 3em; color: #ffc107;">
+          <i class="fas fa-paper-plane"></i>
+        </span>
+        <p class="mb-0 font-weight-bold text-white">フォームで予約</p>
+      </a>
+    </div>
+    <!--  END フォームで相談  -->
+  </div>
+  <div class="p-3 bg-light">
+    <p class="text-center text-grey2">経験豊富な代表弁護士が<br>お話を伺います。<br>まずはご予約を。</p>
+    <p class="font-weight-bold text-center text-tomato">相談予約専用番号</p>
+    <p class="mb-0 text-center font-weight-bold">
+      <a href="tel:05031886226">
+        <span style="font-size: 1em; color: tomato;">
+          <i class="fas fa-phone"></i>
+        </span>
+        050-3188-6226
+      </a>
+    </p>
+  </div>
+  <div class="bg-light">
+    <div class="p-2 text-center text-grey">
+      <p class="mt-3">営業時間</p>
+      <p>平日　10:00-19:00</p>
+      <p>土曜日（隔週）10:00-18:00</p>
+    </div>
+  </div>
+  </div>
   </div>
   <!--  END Hidenori Photo  -->
   </div>
