@@ -10,6 +10,9 @@ body{
 .text-small{
   font-size: 1rem;
 }
+.lh-2{
+  line-height: 2rem;
+}
 .lh-3{
   line-height: 3rem;
 }
@@ -32,6 +35,9 @@ body{
 .text-tomato2{
   color: tomato;
 }
+.text-darkgreen{
+  color: #0c5460;
+}
 
 .text-yellow{
   color: #ffc107;
@@ -45,6 +51,8 @@ body{
 .text-grey2{
   color: #495057;
 }
+
+
 a{
   color: #17a2b8;
 }
