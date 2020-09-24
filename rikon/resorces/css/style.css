@@ -1,0 +1,156 @@
+body{
+  margin-bottom: 115px;
+}
+
+.navbar-dark{
+  background: rgba(0, 0, 0, 0.6);
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+p.card-text{
+  font-size: inherit;
+}
+.list-fs-small{
+  font-size: inherit;
+}
+
+.line-height-03{
+  line-height: 0.3;
+}
+
+
+.li-style-square{
+  list-style: square;
+}
+
+li .breadcrumb-item{
+  font-size: inherit;
+}
+.card-columns p{
+  font-size: inherit;
+}
+
+
+a{
+  color: #17a2b8;
+}
+
+a:hover{
+  color: teal;
+  text-decoration: none;
+}
+
+
+
+.page-item.active .page-link{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.page-link{
+  color: #17a2b8;
+}
+
+
+.navbar-light .navbar-brand:hover{
+  color: #17a2b8;
+}
+
+.bg-hidenori{
+  background-image: url(../../resorces/images/rikon-bg-img.jpg);
+}
+
+
+.btn-primary{
+  background-color: teal;
+  border-color: teal;
+}
+.btn-primary:hover{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.text-teal{
+  color:teal;
+}
+
+.text-tomato{
+  color: #dc3545;
+}
+.text-g-rey{
+  color: darkslategrey;
+}
+.text-grey2{
+  color: #495057;
+}
+
+.navbar-light .navbar-brand{
+   color: #117a8b;
+ }
+
+.bg-grey{
+   background-color: #e9ecef;
+ }
+.bg-grey2{
+   background-color: #ced4da;
+ }
+.bg-grey3{
+  background-color: #e9ecef;
+}
+.bg-darkgreen2{
+  background-color: #577750;
+}
+.text-grey{
+  color: #545b62;
+}
+.text-yellow{
+  color: #ffc107;
+}
+.bg-light-green{
+  background-color: #b4ded4;
+}
+
+
+.bg-tomato{
+   background-color: #dc3545;
+ }
+
+.border-teal{
+  border: 0.5rem solid;
+  border-color: teal;
+}
+
+.bg-yellow{
+   background-color: #ffc107;
+ }
+.bg-teal{
+   background-color: teal;
+ }
+
+.bg-teal2{
+   background-color: #17a2b8;
+ }
+.bg-footer-fixed-bottom{
+  background-color: #117a8b;
+}
+
+.lh-3{
+   line-height: 3rem;
+ }
+ .lh-2{
+    line-height: 2rem;
+  }
+.footer-font p{
+   font-size: 1rem;
+ }
+
+.card{
+  border-radius: 0;
+}
+.border-teal{
+  border: solid;
+  border-color: teal;
+  border-width: thick;
+}
