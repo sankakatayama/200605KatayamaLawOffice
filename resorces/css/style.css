@@ -7,6 +7,10 @@ body{
 .hidenori-photo{
   background-image: url(../img/AdobeStock_189603333-2.jpg);
 }
+.gb-test{
+background-image: url(../../resorces/img/1200px_AdobeStock_363257123.jpg);
+}
+
 .text-small{
   font-size: 1rem;
 }
